@@ -1,2 +1,2 @@
 # SuVe Display
-#plugin for KODI (Android TV)
+#plugin for KODI (Android TV); Cambodia only
