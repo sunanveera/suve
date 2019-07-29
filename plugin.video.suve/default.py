@@ -21,9 +21,9 @@ tmpListFile = os.path.join(addon_data_dir, 'tmpList')
 def getLocaleString(id):
 	return Addon.getLocalizedString(id).encode('utf-8')
 	
-def Categories():
+def Categories(url):
 	i = 0
-	urllib.urlretrieve(playURL, tmpPlayList)
+	urllib.urlretrieve(url, tmpPlayList)
 	list = common.ReadList(tmpPlayList)
 	for item in list:
 		mode = 1 if item["url"].find(".plx") > 0 else 2
@@ -163,7 +163,7 @@ except:
 	pass
 	
 if mode == None:
-	Categories()
+	Categories(playURL)
 elif mode == 1:
 	PlxCategory(url)
 elif mode == 2:
