@@ -6,6 +6,12 @@
 	"name": "6000+ TV Channels Worldwide"
 },
 {
+	"url": "https://raw.githubusercontent.com/freearhey/iptv/master/channels/kh.m3u", 
+	"logos": "", 
+	"image": "", 
+	"name": "KH TV"
+},
+{
 	"url": "https://raw.githubusercontent.com/sunanveera/suve/master/channel/camera_pp.m3u", 
 	"logos": "", 
 	"image": "", 
