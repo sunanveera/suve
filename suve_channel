@@ -1,5 +1,11 @@
 [
     {
+        "url": "https://raw.githubusercontent.com/freearhey/iptv/master/index.m3u", 
+        "logos": "", 
+        "image": "", 
+        "name": "6000+ TV Worldwide"
+    },
+    {
         "url": "https://raw.githubusercontent.com/sunanveera/suve/master/channel/camera_pp.m3u", 
         "logos": "", 
         "image": "", 
